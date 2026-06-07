@@ -12,7 +12,7 @@
 
 ## O problema
 
-Domínios de phishing que imitam marcas (bancos, fintechs, e-commerce) são registrados aos milhares por dia. Eles aparecem nos logs públicos de **Certificate Transparency** assim que emitem um certificado SSL — geralmente **antes** de entrarem em qualquer blacklist ou serem reportados ao VirusTotal.
+Domínios de phishing que imitam marcas (bancos, fintechs, e-commerce) são registrados aos milhares por dia. Eles aparecem nos logs públicos de **Certificate Transparency** assim que emitem um certificado SSL geralmente **antes** de entrarem em qualquer blacklist ou serem reportados ao VirusTotal.
 
 A janela entre o registro e a primeira vítima é onde esse pipeline atua.
 
