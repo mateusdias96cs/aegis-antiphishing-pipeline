@@ -1,0 +1,5 @@
+phishing.log
+__pycache__/
+*.pyc
+.env
+nohup.out
