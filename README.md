@@ -73,7 +73,13 @@ O maior inimigo de um sistema de detecção não é perder alertas é o falso po
 └──────────────────────────────────────────────────────────┘
 ```
 
+**Workflow completo — 6 nós conectados:**
+![Pipeline n8n](https://raw.githubusercontent.com/mateusdias96cs/aegis-antiphishing-pipeline/main/assets/3.png)
 ---
+
+**Execuções em tempo real — pipeline processando alertas automaticamente:**
+![Execuções n8n](https://raw.githubusercontent.com/mateusdias96cs/aegis-antiphishing-pipeline/main/assets/1.png)
+
 
 ## Como funciona — passo a passo
 
@@ -243,6 +249,10 @@ Comparação do filtro antes/depois da arquitetura de costimulação, sobre trá
 | `meliuz-seguro.online` | Méliuz | ✅ ALERTA | marca no SLD + keyword + TLD suspeito |
 
 ---
+
+**Alerta real detectado — `game-amazon.best` (14 detecções no VirusTotal):**
+![Alerta Telegram](https://raw.githubusercontent.com/mateusdias96cs/aegis-antiphishing-pipeline/main/assets/2.jpeg)
+
 
 ## Execução
 
